@@ -1,0 +1,23 @@
+Category,Characteristics,Predictors,N total,N control,N expose,Beta,Lower 95%CI,Upper 95%CI,Beta (95%CI),P value,P BFI,Age group,P interaction,Abbreviations,p_star
+Cognition,Fluid intelligence,All Infectious Diseases,1010,639,371,0.00558638397536689,-0.10471210039017,0.115884868340904,"0.01 (-0.10, 0.12)",0.920849199149026,1,71-80,0.084,Any,
+Cognition,Fluid intelligence,Bacterial Infections,1010,721,289,0.0428411960871274,-0.075510300454769,0.161192692629024,"0.04 (-0.08, 0.16)",0.47766004303099,1,71-80,0.478,Bacterial,
+Cognition,Fluid intelligence,Invasive Bacterial Infections,1010,899,111,0.115171018079955,-0.0540707626074304,0.28441279876734,"0.12 (-0.05, 0.28)",0.182049006101126,1,71-80,0.183,Invasive,
+Cognition,Fluid intelligence,Localised Bacterial Infections,1010,794,216,0.0211554625357284,-0.109002485672813,0.151313410744269,"0.02 (-0.11, 0.15)",0.749827155500094,1,71-80,0.587,Localised,
+Cognition,Fluid intelligence,Bacterial Infections with Sepsis,1010,1008,2,0.9277138335719,-0.262512120887324,2.11793978803112,"0.93 (-0.26, 2.12)",0.126447473774803,1,71-80,0.32,Sepsis,
+Cognition,Fluid intelligence,Bacterial Infections without Sepsis,1010,722,288,0.0360322309544506,-0.0824149262369519,0.154479388145853,"0.04 (-0.08, 0.15)",0.550670338996111,1,71-80,0.491,No-Sepsis,
+Cognition,Fluid intelligence,Extracellular Bacterial Infections,1010,980,30,0.152419661310384,-0.160526130317096,0.465365452937865,"0.15 (-0.16, 0.47)",0.339424520178138,1,71-80,0.048,Extracellular,
+Cognition,Fluid intelligence,Intracellular Bacterial Infections,1010,993,17,0.301987629270733,-0.111523534348728,0.715498792890195,"0.30 (-0.11, 0.72)",0.1521406444859,1,71-80,0.077,Intracellular,
+Cognition,Fluid intelligence,Gram Positive Bacterial Infections,1010,988,22,0.235337565473447,-0.129597645855885,0.600272776802779,"0.24 (-0.13, 0.60)",0.205997768747619,1,71-80,0.242,Gram Positive,
+Cognition,Fluid intelligence,Gram Negative Bacterial Infections,1010,996,14,-0.0928501889718378,-0.545963008173822,0.360262630230146,"-0.09 (-0.55, 0.36)",0.687682698206959,1,71-80,0.083,Gram Negative,
+Cognition,Fluid intelligence,Mycobacterial Infections,1010,999,11,0.534786464617221,0.0194426677840301,1.05013026145041,"0.53 (0.02, 1.05)",0.0419760733155581,1,71-80,<0.001,Mycobacterial,*
+Cognition,Fluid intelligence,Mycoplasma Infections,1010,1010,0,0.0,0.0,0.0,/,/,/,71-80,0.332,Mycoplasma,
+Cognition,Fluid intelligence,Acute Bacterial Infections,1010,735,275,0.0139987986298585,-0.106054161628746,0.134051758888463,"0.01 (-0.11, 0.13)",0.819054908247163,1,71-80,0.465,Acute Bacterial,
+Cognition,Fluid intelligence,Chronic Bacterial Infections,1010,991,19,0.501893035553992,0.110108014895844,0.893678056212139,"0.50 (0.11, 0.89)",0.0120991369916425,1,71-80,0.001,Chronic Bacterial,*
+Cognition,Fluid intelligence,Viral Infections,1010,896,114,0.0425760152713253,-0.126910570238361,0.212062600781011,"0.04 (-0.13, 0.21)",0.622152597616431,1,71-80,0.001,Viral,
+Cognition,Fluid intelligence,Acute Viral Infections,1010,932,78,-0.0148485538407152,-0.215313832352618,0.185616724671187,"-0.01 (-0.22, 0.19)",0.884461773636293,1,71-80,0.042,Acute Viral,
+Cognition,Fluid intelligence,Herpes Viral Infections,1010,951,59,0.123236558334122,-0.10523580659665,0.351708923264895,"0.12 (-0.11, 0.35)",0.290092307331897,1,71-80,<0.001,Herpes,
+Cognition,Fluid intelligence,Other Potentially Persistent Viral Infections,1010,1010,0,0.0,0.0,0.0,/,/,/,71-80,0.093,Other Viral,
+Cognition,Fluid intelligence,Parasitic Infections,1010,1004,6,-0.58871936040681,-1.27818358076862,0.100744859954997,"-0.59 (-1.28, 0.10)",0.0941281892376549,1,71-80,0.335,Parasitic,
+Cognition,Fluid intelligence,Fungal Infections,1010,940,70,0.0972835667228965,-0.112106814409152,0.306673947854945,"0.10 (-0.11, 0.31)",0.36213773555091,1,71-80,0.441,Fungal,
+Cognition,Fluid intelligence,Acute Infections,1010,690,320,-0.0161520598290185,-0.130587506220372,0.0982833865623344,"-0.02 (-0.13, 0.10)",0.781854317545507,1,71-80,0.133,Acute,
+Cognition,Fluid intelligence,Chronic Infections,1010,930,80,0.198816285370734,0.00123328087873176,0.396399289862736,"0.20 (0.00, 0.40)",0.0485897640293641,1,71-80,<0.001,Chronic,*

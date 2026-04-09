@@ -3,23 +3,37 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Zhirong Li"
+  text: "Yating Miao"
+  tagline: Jilin University and China Medical University
+  image:
+    src:  /logo/logo.jpg
+    alt: Logo
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Brain Age Gap
+      link: /s0_BAG/Overview/
+    - theme: brand
+      text: Brain Structure
+      link: /s1_Structure/Overview/
+    - theme: brand
+      text: Brain Disease
+      link: /s2_Disease/Overview/
+    - theme: brand
+      text: Brain Function
+      link: /s3_Function/Overview/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Brain Age Gap
+    details: Associations between infections and Brain Age Gap
+
+  - title: Brain Structure
+    details: Structural MRI-derived phenotypes and alterations
+
+  - title: Brain Disease
+    details: Risk of neurological disorders following infections
+
+  - title: Brain Function
+    details: Functional outcomes including Cognition and Movement
 ---
 

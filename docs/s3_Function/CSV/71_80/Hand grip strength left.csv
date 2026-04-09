@@ -1,0 +1,23 @@
+Category,Characteristics,Predictors,N total,N control,N expose,Beta,Lower 95%CI,Upper 95%CI,Beta (95%CI),P value,P BFI,Age group,P interaction,Abbreviations,p_star
+Movement,Hand grip strength left,All Infectious Diseases,2401,1974,427,-0.0186241203006518,-0.0847122671698555,0.047464026568552,"-0.02 (-0.08, 0.05)",0.580580358882327,1,71-80,<0.001,Any,
+Movement,Hand grip strength left,Bacterial Infections,2522,2182,340,-0.031323548703429,-0.103495539552672,0.0408484421458145,"-0.03 (-0.10, 0.04)",0.394817167915064,1,71-80,<0.001,Bacterial,
+Movement,Hand grip strength left,Invasive Bacterial Infections,2785,2653,132,-0.0979472182761343,-0.20798285816919,0.0120884216169212,"-0.10 (-0.21, 0.01)",0.0810249520715621,1,71-80,<0.001,Invasive,
+Movement,Hand grip strength left,Localised Bacterial Infections,2628,2368,260,-0.0120611460399734,-0.0933018932527766,0.0691796011728299,"-0.01 (-0.09, 0.07)",0.770986664068313,1,71-80,<0.001,Localised,
+Movement,Hand grip strength left,Bacterial Infections with Sepsis,2938,2931,7,-0.82336413548888,-1.28942504583738,-0.35730322514038,"-0.82 (-1.29, -0.36)",0.000539877609813881,0.665129215290701,71-80,0.015,Sepsis,*
+Movement,Hand grip strength left,Bacterial Infections without Sepsis,2525,2186,339,-0.0304295848212759,-0.102651198065528,0.0417920284229761,"-0.03 (-0.10, 0.04)",0.408767627508086,1,71-80,<0.001,No-Sepsis,
+Movement,Hand grip strength left,Extracellular Bacterial Infections,2907,2863,44,-0.115853755266468,-0.303687427608889,0.071979917075954,"-0.12 (-0.30, 0.07)",0.226611577078859,1,71-80,0.176,Extracellular,
+Movement,Hand grip strength left,Intracellular Bacterial Infections,2910,2891,19,-0.26505605037024,-0.549787209569239,0.0196751088287582,"-0.27 (-0.55, 0.02)",0.0680598961822861,1,71-80,0.308,Intracellular,
+Movement,Hand grip strength left,Gram Positive Bacterial Infections,2916,2883,33,-0.109665447376868,-0.326277059766094,0.106946165012357,"-0.11 (-0.33, 0.11)",0.320939489068986,1,71-80,0.378,Gram Positive,
+Movement,Hand grip strength left,Gram Negative Bacterial Infections,2923,2904,19,-0.0778374490514943,-0.362250902139019,0.206576004036031,"-0.08 (-0.36, 0.21)",0.591570597961279,1,71-80,0.673,Gram Negative,
+Movement,Hand grip strength left,Mycobacterial Infections,2918,2901,17,-0.309086781023623,-0.609727959944441,-0.00844560210280493,"-0.31 (-0.61, -0.01)",0.0439061987598764,1,71-80,0.288,Mycobacterial,*
+Movement,Hand grip strength left,Mycoplasma Infections,2941,2941,0,0.0,0.0,0.0,/,/,/,71-80,0.505,Mycoplasma,
+Movement,Hand grip strength left,Acute Bacterial Infections,2546,2216,330,-0.0251667981967386,-0.0982117166424925,0.0478781202490153,"-0.03 (-0.10, 0.05)",0.499352041787107,1,71-80,<0.001,Acute Bacterial,
+Movement,Hand grip strength left,Chronic Bacterial Infections,2905,2886,19,-0.256504218784308,-0.541053749418116,0.0280453118494995,"-0.26 (-0.54, 0.03)",0.07724508768672,1,71-80,0.735,Chronic Bacterial,
+Movement,Hand grip strength left,Viral Infections,2796,2664,132,-0.0446243384310523,-0.155594280266291,0.0663456034041868,"-0.04 (-0.16, 0.07)",0.430469316844001,1,71-80,0.029,Viral,
+Movement,Hand grip strength left,Acute Viral Infections,2845,2747,98,0.0253709932393102,-0.102430616355277,0.153172602833898,"0.03 (-0.10, 0.15)",0.697116132190015,1,71-80,0.467,Acute Viral,
+Movement,Hand grip strength left,Herpes Viral Infections,2877,2801,76,-0.0742842158537119,-0.218222114470929,0.069653682763505,"-0.07 (-0.22, 0.07)",0.311653880125489,1,71-80,0.063,Herpes,
+Movement,Hand grip strength left,Other Potentially Persistent Viral Infections,2938,2938,0,0.0,0.0,0.0,/,/,/,71-80,0.39,Other Viral,
+Movement,Hand grip strength left,Parasitic Infections,2926,2922,4,-0.300402227993003,-0.917095618564159,0.316291162578153,"-0.30 (-0.92, 0.32)",0.339591020253418,1,71-80,0.709,Parasitic,
+Movement,Hand grip strength left,Fungal Infections,2847,2774,73,0.0093085677609774,-0.137951234202334,0.156568369724289,"0.01 (-0.14, 0.16)",0.901366807533393,1,71-80,0.001,Fungal,
+Movement,Hand grip strength left,Acute Infections,2483,2098,385,-0.0116662759403186,-0.0800909131982538,0.0567583613176166,"-0.01 (-0.08, 0.06)",0.73815560042452,1,71-80,<0.001,Acute,
+Movement,Hand grip strength left,Chronic Infections,2829,2733,96,-0.125299779521753,-0.253827097990299,0.00322753894679317,"-0.13 (-0.25, 0.00)",0.0560330721540155,1,71-80,0.006,Chronic,

@@ -1,0 +1,23 @@
+Category,Characteristics,Predictors,N total,N control,N expose,Beta,Lower 95%CI,Upper 95%CI,Beta (95%CI),P value,P BFI,Age group,P interaction,Abbreviations,p_star
+Cognition,Paired associate learning,All Infectious Diseases,244,120,124,0.0483090912714092,-0.187985010549288,0.284603193092107,"0.05 (-0.19, 0.28)",0.687425387753921,1,40-50,0.649,Any,
+Cognition,Paired associate learning,Bacterial Infections,244,174,70,-0.0191594539863393,-0.275257199639757,0.236938291667078,"-0.02 (-0.28, 0.24)",0.882929491751658,1,40-50,0.825,Bacterial,
+Cognition,Paired associate learning,Invasive Bacterial Infections,244,225,19,-0.294529457259869,-0.72761869216071,0.138559777640973,"-0.29 (-0.73, 0.14)",0.181560003999911,1,40-50,0.311,Invasive,
+Cognition,Paired associate learning,Localised Bacterial Infections,244,181,63,-0.0103832232970433,-0.27678647494884,0.256020028354753,"-0.01 (-0.28, 0.26)",0.938847826236245,1,40-50,0.72,Localised,
+Cognition,Paired associate learning,Bacterial Infections with Sepsis,244,244,0,0.0,0.0,0.0,/,/,/,40-50,0.135,Sepsis,
+Cognition,Paired associate learning,Bacterial Infections without Sepsis,244,174,70,-0.0191594539863393,-0.275257199639757,0.236938291667078,"-0.02 (-0.28, 0.24)",0.882929491751658,1,40-50,0.722,No-Sepsis,
+Cognition,Paired associate learning,Extracellular Bacterial Infections,244,243,1,0.373573820621526,-1.48060405214775,2.2277516933908,"0.37 (-1.48, 2.23)",0.691726983655421,1,40-50,0.84,Extracellular,
+Cognition,Paired associate learning,Intracellular Bacterial Infections,244,243,1,-3.3385637030213,-5.11346859002976,-1.56365881601285,"-3.34 (-5.11, -1.56)",0.000264522265487628,0.325891431080758,40-50,0.014,Intracellular,*
+Cognition,Paired associate learning,Gram Positive Bacterial Infections,244,243,1,0.373573820621526,-1.48060405214775,2.2277516933908,"0.37 (-1.48, 2.23)",0.691726983655421,1,40-50,0.919,Gram Positive,
+Cognition,Paired associate learning,Gram Negative Bacterial Infections,244,243,1,-3.3385637030213,-5.11346859002976,-1.56365881601285,"-3.34 (-5.11, -1.56)",0.000264522265487628,0.325891431080758,40-50,0.026,Gram Negative,*
+Cognition,Paired associate learning,Mycobacterial Infections,244,244,0,0.0,0.0,0.0,/,/,/,40-50,0.054,Mycobacterial,
+Cognition,Paired associate learning,Mycoplasma Infections,244,244,0,0.0,0.0,0.0,/,/,/,40-50,0.899,Mycoplasma,
+Cognition,Paired associate learning,Acute Bacterial Infections,244,178,66,-0.0091917584634159,-0.268201298395879,0.249817781469047,"-0.01 (-0.27, 0.25)",0.944310241866101,1,40-50,0.786,Acute Bacterial,
+Cognition,Paired associate learning,Chronic Bacterial Infections,244,239,5,-0.0104782004544962,-0.928734606857403,0.907778205948411,"-0.01 (-0.93, 0.91)",0.982080169406354,1,40-50,0.574,Chronic Bacterial,
+Cognition,Paired associate learning,Viral Infections,244,155,89,0.113540855185704,-0.136408038676713,0.363489749048122,"0.11 (-0.14, 0.36)",0.371668423643271,1,40-50,0.71,Viral,
+Cognition,Paired associate learning,Acute Viral Infections,244,192,52,0.0398870899665622,-0.250906057367481,0.330680237300605,"0.04 (-0.25, 0.33)",0.787180797117996,1,40-50,0.719,Acute Viral,
+Cognition,Paired associate learning,Herpes Viral Infections,244,169,75,0.143022082720006,-0.120224462544078,0.406268627984089,"0.14 (-0.12, 0.41)",0.285492444005714,1,40-50,0.614,Herpes,
+Cognition,Paired associate learning,Other Potentially Persistent Viral Infections,244,243,1,0.225869177907823,-1.63866940270079,2.09040775851643,"0.23 (-1.64, 2.09)",0.81154544036728,1,40-50,0.192,Other Viral,
+Cognition,Paired associate learning,Parasitic Infections,244,243,1,0.704245911920317,-1.12724934436394,2.53574116820458,"0.70 (-1.13, 2.54)",0.449411261594803,1,40-50,0.548,Parasitic,
+Cognition,Paired associate learning,Fungal Infections,244,226,18,0.0303288954277573,-0.418173480336528,0.478831271192043,"0.03 (-0.42, 0.48)",0.894111123026266,1,40-50,0.804,Fungal,
+Cognition,Paired associate learning,Acute Infections,244,151,93,0.0207471899756079,-0.218332729727945,0.25982710967916,"0.02 (-0.22, 0.26)",0.86437420273716,1,40-50,0.522,Acute,
+Cognition,Paired associate learning,Chronic Infections,244,165,79,0.144762135699259,-0.112747224312368,0.402271495710886,"0.14 (-0.11, 0.40)",0.269140916536887,1,40-50,0.724,Chronic,

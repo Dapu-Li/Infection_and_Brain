@@ -1,0 +1,253 @@
+/**
+ * =========================
+ * 🎨 全局颜色系统（更科研蓝紫风）
+ * =========================
+ */
+
+:root {
+  --vp-c-brand-1: #2563eb;
+  --vp-c-brand-2: #1d4ed8;
+  --vp-c-brand-3: #1e40af;
+  --vp-c-brand-soft: rgba(37, 99, 235, 0.12);
+
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-2: var(--vp-c-brand-2);
+  --vp-c-tip-3: var(--vp-c-brand-3);
+  --vp-c-tip-soft: var(--vp-c-brand-soft);
+
+  --vp-c-warning-1: #f59e0b;
+  --vp-c-danger-1: #ef4444;
+}
+
+/**
+ * =========================
+ * 🔘 Button（更像产品级）
+ * =========================
+ */
+
+:root {
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: #fff;
+  --vp-button-brand-bg: linear-gradient(135deg, #2563eb, #7c3aed);
+  --vp-button-brand-hover-bg: linear-gradient(135deg, #1d4ed8, #6d28d9);
+}
+
+.VPButton.brand {
+  border-radius: 20px;
+  padding: 10px 18px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.VPButton.brand:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+/**
+ * =========================
+ * 🏠 首页 Hero 区域（重点优化）
+ * =========================
+ */
+
+.VPHome {
+  background: linear-gradient(
+    135deg,
+    #eef2ff 0%,
+    #f7f9fc 40%,
+    #ffffff 100%
+  );
+}
+
+/* 标题渐变 */
+.VPHomeHero .name {
+  font-size: 42px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 副标题 */
+.VPHomeHero .tagline {
+  font-size: 16px;
+  color: #555;
+}
+
+/**
+ * =========================
+ * 🧠 Logo 光圈 + 呼吸效果（核心视觉）
+ * =========================
+ */
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 20px rgba(37,99,235,0.3);
+  }
+  50% {
+    box-shadow: 0 0 60px rgba(124,58,237,0.5);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(37,99,235,0.3);
+  }
+}
+
+.VPHomeHero .image img {
+  border-radius: 50%;
+  animation: glow 3.5s infinite ease-in-out;
+  transition: all 0.3s ease;
+}
+
+.VPHomeHero .image img:hover {
+  transform: scale(1.05);
+}
+
+/**
+ * =========================
+ * 🧩 Feature 卡片（模块区）
+ * =========================
+ */
+
+.VPFeature {
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.VPFeature:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+/**
+ * =========================
+ * 📄 Markdown 内容优化
+ * =========================
+ */
+
+.vp-doc h1 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.vp-doc h2 {
+  border-left: 4px solid var(--vp-c-brand-1);
+  padding-left: 10px;
+}
+
+/**
+ * =========================
+ * 📊 表格优化（你 CSV 用得到）
+ * =========================
+ */
+
+.vp-doc table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.vp-doc thead {
+  background: #f1f5f9;
+}
+
+.vp-doc tbody tr:hover {
+  background: #f8fafc;
+}
+
+/**
+ * =========================
+ * 🔍 滚动条优化（高级感细节）
+ * =========================
+ */
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100,100,100,0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100,100,100,0.5);
+}
+
+/**
+ * =========================
+ * 🧠 Hero 背景光晕（更高级）
+ * =========================
+ */
+
+.VPHomeHero::before {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(
+    circle,
+    rgba(37,99,235,0.15),
+    transparent 70%
+  );
+  top: -100px;
+  left: -100px;
+  z-index: 0;
+}
+
+.VPHomeHero {
+  position: relative;
+}
+
+/**
+ * =========================
+ * 🎨 原有变量（保留兼容）
+ * =========================
+ */
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #2563eb 30%,
+    #7c3aed
+  );
+
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #2563eb 50%,
+    #7c3aed 50%
+  );
+}
+
+/**
+ * =========================
+ * 🧱 Custom Block
+ * =========================
+ */
+
+:root {
+  --vp-custom-block-tip-border: transparent;
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+}
+
+/**
+ * =========================
+ * 🔍 搜索框
+ * =========================
+ */
+
+.DocSearch {
+  --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+/**
+ * =========================
+ * ⚙️ Canvas（你已有）
+ * =========================
+ */
+
+canvas {
+  background-color: white;
+  pointer-events: none;
+}
